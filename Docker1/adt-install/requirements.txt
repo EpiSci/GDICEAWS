@@ -38,7 +38,7 @@ numpy==1.17.2
 opencv-python==4.1.1.26
 packaging==19.2
 pandas==0.25.1
-Pillow==6.1.0
+Pillow==6.2.0
 protobuf==3.9.2
 pycodestyle==2.5.0
 pyflakes==2.1.1

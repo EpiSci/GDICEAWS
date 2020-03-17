@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='ASCII'?>
+<configuration>
+  <parameter name="EPISODE_TIME_S" default="True">300</parameter>
+  <parameter name="RED_INITIAL_ALTITUDE_FT">301.1186511545194</parameter>
+  <parameter name="RED_INITIAL_TERRAIN_ALTITUDE_FT" default="True">1e-05</parameter>
+  <parameter name="RED_INITIAL_LONG">-157.98140614952632</parameter>
+  <parameter name="RED_INITIAL_LAT">21.237843646384153</parameter>
+  <parameter name="BLUE_INITIAL_ALTITUDE_FT">65882.19213561583</parameter>
+  <parameter name="BLUE_INITIAL_TERRAIN_ALTITUDE_FT" default="True">1e-05</parameter>
+  <parameter name="BLUE_INITIAL_LONG">-158.04045136716817</parameter>
+  <parameter name="BLUE_INITIAL_LAT">21.269956185046777</parameter>
+  <parameter name="BLUE_INITIAL_THROTTLE_CMD" default="True">0.8</parameter>
+  <parameter name="BLUE_INITIAL_MIXTURE_CMD" default="True">0.8</parameter>
+  <parameter name="RED_INITIAL_THROTTLE_CMD" default="True">0.8</parameter>
+  <parameter name="RED_INITIAL_MIXTURE_CMD" default="True">0.8</parameter>
+  <parameter name="BOUNDARY_ALT_CEILING" default="True">100200</parameter>
+  <parameter name="BOUNDARY_ALT_FLOOR" default="True">200</parameter>
+  <parameter name="CIRCULAR_BOUNDARY" default="True">200000</parameter>
+  <parameter name="RED_INITIAL_HEADING_DEG">12.150142295949804</parameter>
+  <parameter name="RED_INITIAL_U" default="True">675</parameter>
+  <parameter name="RED_INITIAL_V" default="True">0</parameter>
+  <parameter name="RED_INITIAL_W" default="True">0</parameter>
+  <parameter name="RED_INITIAL_P" default="True">0</parameter>
+  <parameter name="RED_INITIAL_Q" default="True">0</parameter>
+  <parameter name="RED_INITIAL_R" default="True">0</parameter>
+  <parameter name="RED_INITIAL_ROC" default="True">0</parameter>
+  <parameter name="BLUE_INITIAL_HEADING_DEG">234.11816248485883</parameter>
+  <parameter name="BLUE_INITIAL_U" default="True">675</parameter>
+  <parameter name="BLUE_INITIAL_V" default="True">0</parameter>
+  <parameter name="BLUE_INITIAL_W" default="True">0</parameter>
+  <parameter name="BLUE_INITIAL_P" default="True">0</parameter>
+  <parameter name="BLUE_INITIAL_Q" default="True">0</parameter>
+  <parameter name="BLUE_INITIAL_R" default="True">0</parameter>
+  <parameter name="BLUE_INITIAL_ROC" default="True">0</parameter>
+  <parameter name="SIMULATION_STEP_PER_INTERACTION" default="True">1</parameter>
+  <parameter name="AGENT_INTERACTION_FREQ" default="True">50</parameter>
+  <parameter name="RED_AIRCRAFT" default="True">F15</parameter>
+  <parameter name="BLUE_AIRCRAFT" default="True">F15</parameter>
+  <parameter name="BLUE_FG_PORT" default="True">5550</parameter>
+  <parameter name="RED_FG_PORT" default="True">5551</parameter>
+  <parameter name="MULTIPLAYER_PORT_ONE" default="True">5552</parameter>
+  <parameter name="MULTIPLAYER_PORT_TWO" default="True">5553</parameter>
+  <parameter name="SERVER" default="True">192.168.1.108</parameter>
+  <parameter name="DESTINATION_ADDRESS" default="True">localhost</parameter>
+  <parameter name="FG_RED" default="True">False</parameter>
+  <parameter name="FG_BLUE" default="True">False</parameter>
+  <parameter name="DIS" default="True">True</parameter>
+  <parameter name="NO_RENDER" default="True">False</parameter>
+  <parameter name="PLOT_RED" default="True">False</parameter>
+  <parameter name="PLOT_BLUE" default="True">False</parameter>
+  <parameter name="RUN_REAL_TIME" default="True">False</parameter>
+  <parameter name="STEPS_PER_RENDER" default="True">1</parameter>
+  <parameter name="REAL_TIME_MULTIPLE" default="True">1</parameter>
+  <parameter name="AGENT_WAIT_TIMEOUT" default="True">-1</parameter>
+  <parameter name="PRINT_SIM_TIME" default="True">False</parameter>
+</configuration>

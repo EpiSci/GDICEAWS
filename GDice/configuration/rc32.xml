@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='ASCII'?>
+<configuration>
+  <parameter name="EPISODE_TIME_S" default="True">300</parameter>
+  <ic name="RED_INITIAL_ALTITUDE_FT">12492.412715354378</ic>
+  <ic name="RED_INITIAL_TERRAIN_ALTITUDE_FT" default="True">1e-05</ic>
+  <ic name="RED_INITIAL_LONG">-157.80962145477488</ic>
+  <ic name="RED_INITIAL_LAT">21.30810613577236</ic>
+  <ic name="BLUE_INITIAL_ALTITUDE_FT">18937.168605324096</ic>
+  <ic name="BLUE_INITIAL_TERRAIN_ALTITUDE_FT" default="True">1e-05</ic>
+  <ic name="BLUE_INITIAL_LONG">-157.80570865409092</ic>
+  <ic name="BLUE_INITIAL_LAT">21.30382654492876</ic>
+  <ic name="BLUE_INITIAL_THROTTLE_CMD" default="True">0.8</ic>
+  <ic name="BLUE_INITIAL_MIXTURE_CMD">0.8678912432850546</ic>
+  <ic name="RED_INITIAL_THROTTLE_CMD" default="True">0.8</ic>
+  <ic name="RED_INITIAL_MIXTURE_CMD">0.5857462487940014</ic>
+  <ic name="RED_INITIAL_HEADING_DEG">302.7913114437895</ic>
+  <ic name="RED_INITIAL_U">430.9038626757207</ic>
+  <ic name="RED_INITIAL_V" default="True">0</ic>
+  <ic name="RED_INITIAL_W" default="True">0</ic>
+  <ic name="RED_INITIAL_P" default="True">0</ic>
+  <ic name="RED_INITIAL_Q" default="True">0</ic>
+  <ic name="RED_INITIAL_R" default="True">0</ic>
+  <ic name="RED_INITIAL_ROC" default="True">0</ic>
+  <ic name="BLUE_INITIAL_HEADING_DEG">266.5566289173804</ic>
+  <ic name="BLUE_INITIAL_U">683.2780581726533</ic>
+  <ic name="BLUE_INITIAL_V" default="True">0</ic>
+  <ic name="BLUE_INITIAL_W" default="True">0</ic>
+  <ic name="BLUE_INITIAL_P" default="True">0</ic>
+  <ic name="BLUE_INITIAL_Q" default="True">0</ic>
+  <ic name="BLUE_INITIAL_R" default="True">0</ic>
+  <ic name="BLUE_INITIAL_ROC" default="True">0</ic>
+  <parameter name="SIMULATION_STEP_PER_INTERACTION" default="True">1</parameter>
+  <parameter name="AGENT_INTERACTION_FREQ" default="True">50</parameter>
+  <parameter name="RED_G_SOFT_LIMIT" default="True">6.5</parameter>
+  <parameter name="BLUE_G_SOFT_LIMIT" default="True">9.0</parameter>
+  <parameter name="BOUNDARY_ALT_CEILING" default="True">100200</parameter>
+  <parameter name="BOUNDARY_ALT_FLOOR">1000</parameter>
+  <parameter name="CIRCULAR_BOUNDARY" default="True">200000</parameter>
+  <parameter name="HARD_DECK_PENALTY" default="True">-1</parameter>
+  <parameter name="BOUNDARY_CEILING_PENALTY" default="True">-1</parameter>
+  <parameter name="CIRCULAR_BOUNDARY_PENALTY" default="True">-1</parameter>
+  <parameter name="RED_AIRCRAFT" default="True">F15</parameter>
+  <parameter name="BLUE_AIRCRAFT" default="True">F15</parameter>
+  <parameter name="BLUE_FG_PORT" default="True">5550</parameter>
+  <parameter name="RED_FG_PORT" default="True">5551</parameter>
+  <parameter name="MULTIPLAYER_PORT_ONE" default="True">5552</parameter>
+  <parameter name="MULTIPLAYER_PORT_TWO" default="True">5553</parameter>
+  <parameter name="SERVER" default="True">192.168.1.108</parameter>
+  <parameter name="DESTINATION_ADDRESS" default="True">localhost</parameter>
+  <parameter name="RED_INITIAL_LONG">-157.80962145477488</parameter>
+  <parameter name="RED_INITIAL_LAT">21.30810613577236</parameter>
+  <parameter name="BLUE_INITIAL_LONG">-157.80570865409092</parameter>
+  <parameter name="BLUE_INITIAL_LAT">21.30382654492876</parameter>
+  <parameter name="CIRCULAR_BOUNDARY" default="True">200000</parameter>
+  <parameter name="EXERCISE_ID" default="True">1</parameter>
+  <parameter name="RED_SITE_ID" default="True">1</parameter>
+  <parameter name="RED_APPLICATION_ID" default="True">1</parameter>
+  <parameter name="RED_ENTITY_ID" default="True">1</parameter>
+  <parameter name="RED_FORCE_ID" default="True">2</parameter>
+  <parameter name="BLUE_SITE_ID" default="True">1</parameter>
+  <parameter name="BLUE_APPLICATION_ID" default="True">1</parameter>
+  <parameter name="BLUE_ENTITY_ID" default="True">2</parameter>
+  <parameter name="BLUE_FORCE_ID" default="True">1</parameter>
+  <parameter name="ADVERSE_POSITION_CONE_HALF_ANGLE_DEG" default="True">1</parameter>
+  <parameter name="ADVERSE_POSITION_CLOSE_MAX_RANGE_FT" default="True">1000</parameter>
+  <parameter name="ADVERSE_POSITION_FAR_MAX_RANGE_FT" default="True">3000</parameter>
+  <parameter name="FAR_ADVERSE_POSITION_PENALTY_PER_SEC" default="True">-0.25</parameter>
+  <parameter name="CLOSE_ADVERSE_POSITION_PENALTY_PER_SEC" default="True">-0.5</parameter>
+  <parameter name="DEFENDER_TRACK_CONE_HALF_ANGLE_DEG" default="True">20</parameter>
+  <parameter name="SHOOTER_TRACK_CONE_HALF_ANGLE_DEG" default="True">2</parameter>
+  <parameter name="TRACK_MIN_RANGE_FT" default="True">500</parameter>
+  <parameter name="TRACK_MAX_RANGE_FT" default="True">1000</parameter>
+  <parameter name="TRACK_SCORE_REWARD" default="True">1</parameter>
+  <parameter name="TRACK_SCORE_PENALTY" default="True">-1</parameter>
+  <parameter name="TRACK_SCORE_TIME" default="True">1</parameter>
+  <parameter name="FG_RED" default="True">False</parameter>
+  <parameter name="FG_BLUE" default="True">False</parameter>
+  <parameter name="DIS" default="True">True</parameter>
+  <parameter name="NO_RENDER" default="True">False</parameter>
+  <parameter name="PLOT_RED" default="True">False</parameter>
+  <parameter name="PLOT_BLUE" default="True">False</parameter>
+  <parameter name="RUN_REAL_TIME" default="True">False</parameter>
+  <parameter name="STEPS_PER_RENDER" default="True">1</parameter>
+  <parameter name="REAL_TIME_MULTIPLE" default="True">1</parameter>
+  <parameter name="AGENT_WAIT_TIMEOUT" default="True">-1</parameter>
+  <parameter name="PRINT_SIM_TIME" default="True">False</parameter>
+</configuration>

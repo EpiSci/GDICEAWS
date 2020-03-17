@@ -1,0 +1,43 @@
+version: 1
+###
+#   formatters: the simple formatter records timestamp, loglevel, and message.
+#               You can change the simple formatter, or add additional formatters.
+formatters:
+  simple:
+    format: '%(asctime)s - %(levelname)s - %(message)s'
+###
+#   handlers: console and file are already included. You probably don't need to add new 
+#             handlers.
+#
+#             Adjust the level of a handler to send more or less information to the handler.
+#             You can set the filename of the file handler.
+#             Set the mode of the file handler to change overwrite behavior:
+#             "w" = overwrite the file
+#             "a" = append to the end of the file
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+  file:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: simple
+    filename: adt.log
+    mode: w
+###
+#   loggers: the root logger is used by default, but additional loggers can be added 
+#            as shown with this sample (currently unused by example code)
+loggers:
+  sampleLogger:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: no
+###
+#   root: defines level and list of handlers for the root (default) logger.
+#         This logger is used by the example code.
+root:
+  level: DEBUG
+  handlers: [console, file]
+

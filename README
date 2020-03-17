@@ -1,0 +1,36 @@
+Hello!  Welcome to the documentation for GDICE using AWS.
+
+Docker 1:
+This just creates a container that has the adt environment installed.  Just run the docker file.  The installation is modified from the base build to be lighter.
+
+Docker 2:
+This is what actually builds the evaluator for GDICE.  This file can be fairly confusing so make sure to read this document!
+
+TOP FILE---------------------------------------------
+compete_fastdice.py-
+This file grabs the aws files we need as well as the agents and begins the simulation.
+
+GraphPolicyController.py/GraphNode.py/discretesample.py-
+All of these files make up G-Dice's nodes and a system to control those nodes.
+
+sample_test.py-
+This is just the runner.  Feel free to ignore this.
+
+Dockerfile/trialrun.sh/pipinstall.sh-
+These all help the docker installation.
+
+SIM CODE-------------------------------------------------
+GraphPolicyController.py/GraphNode.py/discretesample.py-
+All of these files make up G-Dice's nodes and a system to control those nodes.
+
+fastcube.py-
+The actual agent that is running GDICE.
+
+constant.py-
+Important constants.
+
+GDiceController.py-
+This folder allows our system to actually translate our GDICE nodes into actions.
+
+fastcube_files----------------------
+This section contains all of the TMA's and their dependent files.
